@@ -163,3 +163,120 @@ button{
 .header-banner-content:hover{
     background: rgba(245, 245, 245, 1);
 }
+
+/* title */
+.title{
+    padding: 1.5rem 0;
+    text-align: center;
+}
+.title-text{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-family: 'Epilogue', sans-serif;
+    letter-spacing: 8px;
+}
+.title-subtext{
+    text-transform: capitalize;
+    word-spacing: 4px;
+    border-left: 3px solid var(--dark);
+    padding-left: 0.5rem;
+    display: inline-block;
+}
+
+
+/* about */
+.about-item{
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+}
+.about-icon{
+    font-size: 2rem;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--blue);
+    border-radius: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.6rem;
+    transition: all 0.3s ease;
+}
+.about-icon:hover{
+    transform: translateY(-5px);
+    background: var(--midDark);
+}
+.about-title{
+    color: var(--midDark);
+}
+.about-btn{
+    text-transform: capitalize;
+    background: var(--dark);
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 1rem auto 0;
+    transition: all 0.4s ease-in-out;
+}
+.about-btn:hover{
+    opacity: 0.8;
+}
+.about-sec-underline{
+    background: var(--lightGrey);
+    height: 4px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+.about-wrapper-2 > div{
+    margin: 3rem 0;
+}
+.progress-group{
+    padding: 2rem 0;
+}
+.progress-text{
+    display: flex;
+    justify-content: space-between;
+}
+.progress{
+    margin: 0.7rem 0 1.5rem;
+    height: 10px;
+    position: relative;
+    background: var(--lightGrey);
+    border-radius: 10px;
+}
+.progress-icon{
+    font-size: 1.6rem;
+    color: var(--dark);
+}
+.progress-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: var(--blue);
+    border-radius: 10px;
+}
+.progress-bar.w-75{
+    width: 75%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-65{
+    width: 65%;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-20{
+    width: 20%;
+}
+.progress-bar.w-50{
+    width: 50%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
