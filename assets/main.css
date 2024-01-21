@@ -113,3 +113,53 @@ button{
     padding-top: 0.7rem;
 }
 /********************/
+
+.header-banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.banner-title span{
+    display: block;
+    text-align: center;
+}
+.banner-title span:first-of-type{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'Epilogue', sans-serif;
+    letter-spacing: 4px;
+    margin: 1.5rem;
+}
+.banner-title span:last-of-type{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'Epilogue', sans-serif;
+    letter-spacing: 4px;
+    margin: 1.5rem;
+}
+.banner-btn{
+    display: block;
+    margin: 2rem auto;
+    text-transform: capitalize;
+    font-weight: 800;
+    border: 3px solid var(--dark);
+    background: transparent;
+    padding: 0.9rem 3rem;
+    transition: all 0.4s ease-in-out;
+}
+.banner-btn:hover{
+    color: white;
+    background: var(--dark);
+}
+.header-banner-content{
+    background: rgba(245, 245, 245, 0.85);
+    padding: 3rem 0;
+    transition: background 0.5s ease-in-out;
+}
+.header-banner-content:hover{
+    background: rgba(245, 245, 245, 1);
+}
