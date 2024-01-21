@@ -322,3 +322,48 @@ button{
     font-family: 'Epilogue', sans-serif;
 }
 
+/* contact */
+.contact{
+    background: var(--lightGrey);
+}
+.contact-info{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info-item{
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.contact-form{
+    margin: 1rem;
+}
+.form-control, textarea{
+    width: 100%;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.9rem 0.6rem;
+    margin: 0.8rem 0;
+    border: 1px solid var(--lightDark);
+}
+.contact-form textarea{
+    height: 150px;
+}
+.submit-btn{
+    margin-top: 1.2rem;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    background: white;
+    border-width: 2.5px;
+    transition: all 0.5s ease;
+}
+.submit-btn:hover{
+    background: var(--lightDark);
+    color: white;
+}
